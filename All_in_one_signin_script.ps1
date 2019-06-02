@@ -63,6 +63,7 @@ function CheckModuleSFB {
     }
 }
 
+# Connects to all O365 Workloads
 function Connect-All {
     CheckModuleMSOL
     CheckModuleSPO
